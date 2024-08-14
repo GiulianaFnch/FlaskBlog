@@ -42,8 +42,8 @@ Página para galeria de momentos
 
 Utilizamos a plataforma do Bootstrap com o Album example
 
-Giuliana Finochio
-Guilherme Silva
+Giuliana Finochio: https://github.com/GiulianaFnch
+Guilherme Silva: https://github.com/Thats-GuilhermeDourado
 
 
 
