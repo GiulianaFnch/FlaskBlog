@@ -144,7 +144,7 @@
       <section class="jumbotron text-center texto-branco"  style ="background-image: url(../static/uploads/illustration.jpg); background-size: cover; background-position: center;" >
         <div class="container">
           <h1 class="jumbotron-heading">Posts da Comunidade</h1>
-          <p class="lead text-muted">Aqui você pode dedicar um tempo à sua criatividade de forma segura e divertida.</p>
+          <p class="lead text-muted texto-branco">Aqui você pode dedicar um tempo à sua criatividade de forma segura e divertida.</p>
           <p>
             <a href="new_post" class="btn btn-primary my-2">Crie seu post</a>
             <a href="#" class="btn btn-secondary my-2">Momentos CP</a>
@@ -167,6 +167,8 @@
                 <div class="card-body">
                   <!-- Título do post -->
                   <h2>{{ post.title }}</h2>
+                  <!-- subtítulo do post -->
+                  <h3>{{ post.subtitulo }}</h3>
                   <!-- Descrição do post -->
                   <p class="card-text">{{ post.description }}</p>
                   <!--<p >This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
