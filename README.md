@@ -15,14 +15,14 @@ Aqui podemos relembrar o passado nesta rede social e fazendo novas amizades saud
 Para visualizar o projeto é necessário descarregar a pasta .zip
 
 Passo a passo: 
-    -Extrair o projeto
-    -Abrir o programa
-    -"Open"
-    -Encontrar o diretório
-    -Abrir no projeto o Terminal (canto inferior esquerdo)
-    -Digitar "pip install -r requirements.txt"
-    -Logo em seguida digitar "python app.py"
-    -Quando executado o último comando, deve disponilizar no local um link para ser clicado no navegador "http://127.0.0.1:5000/"
+ - Extrair o projeto
+ - Abrir o programa
+ - "Open"
+ - Encontrar o diretório
+ - Abrir no projeto o Terminal (canto inferior esquerdo)
+ - Digitar "pip install -r requirements.txt"
+ - Logo em seguida digitar "python app.py"
+ - Quando executado o último comando, deve disponilizar no local um link para ser clicado no navegador "http://127.0.0.1:5000/"
 
 --- Uso do website --
 
