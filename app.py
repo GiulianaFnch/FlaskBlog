@@ -18,6 +18,7 @@ def index():
 
 # Rota para criar um novo post, aceita métodos GET e POST
 @app.route('/new_post', methods=['GET', 'POST'])
+
 def new_post():
     if request.method == 'POST':
         # Obtém o título e a descrição do formulário
