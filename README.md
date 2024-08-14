@@ -28,6 +28,12 @@ Passo a passo:
 
 Ao clicar é direcionado para a página new_post em que é possível inserir o título, subtítulo, descrição e uma imagem para um novo post que aparecerá no index
 
+--- Updates a implementar ---
+
+Botão "view" irá para uma página em que será possível visualizar o post por completo
+Botão "edit" será possível editar o post feito
+
+Página para galeria de momentos
 
 --- Créditos ---
 
