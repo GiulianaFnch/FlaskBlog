@@ -40,7 +40,7 @@ Página para galeria de momentos
 
 --- Créditos ---
 
-Utilizamos a plataforma do Bootstrap com o Album example
+Utilizamos a plataforma do Bootstrap com o Album example https://getbootstrap.com/docs/4.0/examples/album/#
 
 Giuliana Finochio: https://github.com/GiulianaFnch
 
