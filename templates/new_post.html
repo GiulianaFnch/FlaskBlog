@@ -63,46 +63,46 @@
 
   <main role="main">
     <div class="container">
-    <!-- Formulário para criação de um novo post -->
-    <form action="{{ url_for('new_post') }}" method="post" enctype="multipart/form-data">
+      <!-- Formulário para criação de um novo post -->
+      <form action="{{ url_for('new_post') }}" method="post" enctype="multipart/form-data">
 
 
 
-      <div class="form-group col-md-6">
-        <label for="title">Título:</label>
-        <input type="text" class="form-control" id="title" name="title" placeholder="Título" required>
-      </div>
-      <div class="form-group">
-        <label for="subtitulo">Subtítulo:</label>
-        <input type="text" class="form-control" id="subtitulo" name="subtitulo" placeholder="Subtítulo">
-      </div>
-      <div class="form-group">
-        <label for="description">Descrição:</label>
-        <textarea name="description" class="form-control" id="description" required></textarea>
-      </div>
+        <div class="form-group col-md-6">
+          <label for="title">Título:</label>
+          <input type="text" class="form-control" id="title" name="title" placeholder="Título" required>
+        </div>
+        <div class="form-group">
+          <label for="subtitulo">Subtítulo:</label>
+          <input type="text" class="form-control" id="subtitulo" name="subtitulo" placeholder="Subtítulo">
+        </div>
+        <div class="form-group">
+          <label for="description">Descrição:</label>
+          <textarea name="description" class="form-control" id="description" required></textarea>
+        </div>
         <div class="form-group">
           <label for="inputZip">Imagem:</label>
-          <input type="file"  class="form-control" name="file" id="file">
+          <input type="file" class="form-control" name="file" id="file">
         </div>
-      </div>
-      <div class="form-group">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck">
-          <label class="form-check-label" for="gridCheck">
-            Concordo com os termos de privacidade e segurança
-          </label>
+
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Concordo com os termos de privacidade e segurança
+            </label>
+          </div>
         </div>
-      </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
-    <a href="{{ url_for('index') }}">Voltar</a>
-</div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        <a href="{{ url_for('index') }}">Voltar</a>
+      </form>
+
+    </div>
   </main>
 
   <footer class="text-muted">
     <div class="container">
       <p class="float-right">
-        <a href="#">Back to top</a>
       </p>
       <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
       <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting
@@ -119,7 +119,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <!--
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="../../assets/js/vendor/popper.min.js"></script>
