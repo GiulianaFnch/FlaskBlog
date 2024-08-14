@@ -20,6 +20,7 @@ Passo a passo:
  - "Open"
  - Encontrar o diretório
  - Abrir no projeto o Terminal (canto inferior esquerdo)
+ - Digitar "pip install flask"
  - Digitar "pip install -r requirements.txt"
  - Logo em seguida digitar "python app.py"
  - Quando executado o último comando, deve disponilizar no local um link para ser clicado no navegador "http://127.0.0.1:5000/"
